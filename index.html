@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Islands Landing Page</title>
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- boxicons css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+</head>
+<body>
+    <!-- header section -->
+    <header class="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav-logo">Safari</a>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Explore</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Destinations</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Hotels</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="navToggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main">
+        <div class="swiper gallery-top">
+            <div class="swiper-wrapper">
+                <section class="islands swiper-slide">
+                    <img src="images/US_BoraBora.webp" alt="" class="islands-bg">
+                    <div class="islands-container bd-container">
+                        <div class="islands-data">
+                            <h2 class="islands-subtitle">Islands</h2>
+                            <h1 class="islands-title">Bora Bora</h1>
+                            <p class="islands-description">Bora Bora is an island group in the Leeward Islands. The Leeward Islands comprise the western part of the Society Islands of French Polynesia.</p>
+                            <a href="#" class="islands-button">Explore<i class='bx bx-right-arrow-alt islands-button-icon'></i></a>
+                        </div>
+
+                        <div class="islands-video">
+                            <div class="island-video-content">
+                                <i class='bx bx-play-circle island-video-icon'></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="islands swiper-slide">
+                    <img src="images/bali.jpg" alt="" class="islands-bg">
+                    <div class="islands-container bd-container">
+                        <div class="islands-data">
+                            <h2 class="islands-subtitle">Islands</h2>
+                            <h1 class="islands-title">Bali</h1>
+                            <p class="islands-description">Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok.</p>
+                            <a href="#" class="islands-button">Explore<i class='bx bx-right-arrow-alt islands-button-icon'></i></a>
+                        </div>
+
+                        <div class="islands-video">
+                            <div class="island-video-content">
+                                <i class='bx bx-play-circle island-video-icon'></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="islands swiper-slide">
+                    <img src="images/Island-of-Hawaii.jpg" alt="" class="islands-bg">
+                    <div class="islands-container bd-container">
+                        <div class="islands-data">
+                            <h2 class="islands-subtitle">Islands</h2>
+                            <h1 class="islands-title">Island of Hawai</h1>
+                            <p class="islands-description">Hawaii is the largest island in the United States, located in the state of Hawaii. It is the southeasternmost of the Hawaiian Islands.</p>
+                            <a href="#" class="islands-button">Explore<i class='bx bx-right-arrow-alt islands-button-icon'></i></a>
+                        </div>
+
+                        <div class="islands-video">
+                            <div class="island-video-content">
+                                <i class='bx bx-play-circle island-video-icon'></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="islands-popup" id="popup">
+                    <div class="islands-popup-close" id="popup-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <iframe class="islands-popup-video" src="https://www.youtube.com/embed/BFS9n4B_2xA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- controls -->
+        <div class="controls gallery-thumbs">
+            <div class="controls-container swiper-wrapper">
+                <img src="images/US_BoraBora.webp" alt="" class="controls-img swiper-slide">
+                <img src="images/bali.jpg" alt="" class="controls-img swiper-slide">
+                <img src="images/Island-of-Hawaii.jpg" alt="" class="controls-img swiper-slide">
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- main script file -->
+    <script src="script.js"></script>
+    
+    <!-- gsap cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</body>
+</html>
